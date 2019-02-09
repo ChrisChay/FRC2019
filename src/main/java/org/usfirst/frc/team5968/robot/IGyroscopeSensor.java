@@ -1,3 +1,5 @@
+package org.usfirst.frc.team5968.robot; 
+
 public interface IGyroscopeSensor {
     
     public double getPitch();
@@ -6,4 +8,5 @@ public interface IGyroscopeSensor {
 
     public double getYaw();
     
+    public void resetYaw();
 }

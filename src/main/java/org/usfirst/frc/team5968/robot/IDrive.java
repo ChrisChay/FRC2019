@@ -1,4 +1,4 @@
-import java.util.function.Consumer;
+package org.usfirst.frc.team5968.robot; 
 
 public interface IDrive {
 
@@ -25,7 +25,8 @@ public interface IDrive {
      * This is the method used to drive manually during teleoperated mode
      */
     public void driveManual(double xDirectionSpeed, double yDirectionSpeed);
-    
+
+    public void lookAt(double angle, double speed);
 
     public void init();
     
